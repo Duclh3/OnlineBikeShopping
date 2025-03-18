@@ -8,13 +8,11 @@
 import SwiftUI
 
 struct CustomTabBarItem: View {
-    var tabItems: [TabBarItem] = []
+    @Binding var tabItems: [TabBarItem]
 
     @Binding var selection: TabBarItem
 
     var body: some View {
-        VStack {
-            Spacer()
             HStack {
                 ForEach(tabItems, id: \.self) { item
                     in
@@ -26,7 +24,6 @@ struct CustomTabBarItem: View {
             }
             .padding()
             .ignoresSafeArea(edges: .bottom)
-        }
     }
 }
 
@@ -49,12 +46,4 @@ extension CustomTabBarItem {
             selection = tab
         }
     }
-}
-
-#Preview {
-    CustomTabBarItem(tabItems: [
-        TabBarItem(iconName: "house", title: "Home", color: Color.red),
-        TabBarItem(iconName: "heart", title: "Favarites", color: Color.blue),
-        TabBarItem(iconName: "person", title: "Profile", color: Color.green)
-    ], selection: .constant(TabBarItem(iconName: "house", title: "Home", color: Color.red)))
 }

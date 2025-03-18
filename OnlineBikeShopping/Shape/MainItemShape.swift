@@ -8,9 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct ItemShape: Shape {
+struct MainItemShape: Shape {
     var cornerRadius: CGFloat = 0
-    var offetHeightPercent: CGFloat = 0.1
+    var offsetHeightPercent: CGFloat = 0.1
     
     func path(in rect: CGRect) -> Path {
         Path { path in
@@ -30,18 +30,18 @@ struct ItemShape: Shape {
                 endAngle: Angle(degrees: 360),
                 clockwise: false)
             
-            path.addLine(to: .init(x: rect.maxX, y: rect.maxY - cornerRadius))
+            path.addLine(to: .init(x: rect.maxX, y: rect.maxY - cornerRadius - rect.maxY * offsetHeightPercent))
             path.addArc(
-                center: .init(x: rect.maxX - cornerRadius, y: rect.maxY - cornerRadius),
+                center: .init(x: rect.maxX - cornerRadius, y: rect.maxY - cornerRadius - rect.maxY * offsetHeightPercent),
                 radius: cornerRadius,
                 startAngle: Angle(degrees: 0),
                 endAngle: Angle(degrees: 90),
                 clockwise: false)
             
-            path.addLine(to: .init(x: rect.minX + cornerRadius, y: rect.maxY + rect.maxY * offetHeightPercent))
+            path.addLine(to: .init(x: rect.minX + cornerRadius, y: rect.maxY))
 
             path.addArc(
-                center: .init(x: rect.minX + cornerRadius, y: rect.maxY + rect.maxY * offetHeightPercent - cornerRadius),
+                center: .init(x: rect.minX + cornerRadius, y: rect.maxY - cornerRadius),
                 radius: cornerRadius,
                 startAngle: Angle(degrees: 90),
                 endAngle: Angle(degrees: 180),

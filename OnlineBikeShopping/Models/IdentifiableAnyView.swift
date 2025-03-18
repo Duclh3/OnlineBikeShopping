@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct IdentifiableAnyView: Identifiable, Equatable {
+    let id = UUID()
+    let view: AnyView
+    
+    static func == (lhs: IdentifiableAnyView, rhs: IdentifiableAnyView) -> Bool {
+        lhs.id == rhs.id
+    }
+}

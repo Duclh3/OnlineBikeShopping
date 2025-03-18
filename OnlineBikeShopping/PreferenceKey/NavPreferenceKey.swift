@@ -8,11 +8,26 @@
 import Foundation
 import SwiftUI
 
-struct NavTitlePreferenceKey: PreferenceKey {
-    
+struct TitlePreferenceKey: PreferenceKey {
     static var defaultValue: String = ""
-    
-    static func reduce(value: inout Value, nextValue: () -> Value) {
-        defaultValue = nextValue()
+
+    static func reduce(value: inout String, nextValue: () -> Value) {
+        value = nextValue()
+    }
+}
+
+struct SubTitlePreferenceKey: PreferenceKey {
+    static var defaultValue: String = ""
+
+    static func reduce(value: inout String, nextValue: () -> Value) {
+        value = nextValue()
+    }
+}
+
+struct ShowBackButtonPreferenceKey: PreferenceKey {
+    static var defaultValue: Bool = true
+
+    static func reduce(value: inout Bool, nextValue: () -> Value) {
+        value = nextValue()
     }
 }

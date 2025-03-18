@@ -7,12 +7,20 @@
 
 import SwiftUI
 
-struct CustomNavigationLink: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct CustomNavigationLink<Destination: View, Label: View>: View {
+    let destination: Destination
+    let label: Label
+    
+    init(@ViewBuilder label: () -> Label, destination: Destination) {
+        self.destination = destination
+        self.label = label()
     }
-}
-
-#Preview {
-    CustomNavigationLink()
+    
+    var body: some View {
+        NavigationLink(destination: CustomNavBarContainer(content: {
+            destination
+        })) {
+            label
+        }
+    }
 }

@@ -7,12 +7,18 @@
 
 import SwiftUI
 
-struct CustomNavBarContainer: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+struct CustomNavigationStack<Content: View>: View {
+    let content: Content
 
-#Preview {
-    CustomNavBarContainer()
+    init(@ViewBuilder content: () -> Content) {
+        self.content = content()
+    }
+
+    var body: some View {
+        NavigationStack {
+            CustomNavBarContainer {
+                content
+            }
+        }
+    }
 }

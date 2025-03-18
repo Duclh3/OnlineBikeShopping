@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C13BDA32D5A3946002C7752 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA22D5A3946002C7752 /* TabBarItem.swift */; };
+		8C13BDA52D5A3A75002C7752 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA42D5A3A75002C7752 /* CustomTabBarItem.swift */; };
+		8C13BDA72D5A3F05002C7752 /* CustomTabBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA62D5A3F05002C7752 /* CustomTabBarView2.swift */; };
+		8C13BDAA2D5A40F0002C7752 /* TabarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA92D5A40F0002C7752 /* TabarItemPreferenceKey.swift */; };
+		8C13BDAC2D5A4F30002C7752 /* IdentifiableAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDAB2D5A4F30002C7752 /* IdentifiableAnyView.swift */; };
+		8C3CEB422D5B411B008489B0 /* TupleViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CEB412D5B411B008489B0 /* TupleViewExtensions.swift */; };
+		8C3CEB442D5B44A0008489B0 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CEB432D5B44A0008489B0 /* UINavigationControllerExtensions.swift */; };
+		8C5976152D4F8CEC00E2ED4E /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5976142D4F8CEC00E2ED4E /* Inject */; };
+		8C6961702D5B935D001C1493 /* CustomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C69616F2D5B935D001C1493 /* CustomNavBar.swift */; };
+		8C6961722D5B955A001C1493 /* CustomNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6961712D5B955A001C1493 /* CustomNavigationStack.swift */; };
+		8C6961742D5B95BB001C1493 /* CustomNavBarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6961732D5B95BB001C1493 /* CustomNavBarContainer.swift */; };
+		8C6961762D5B9907001C1493 /* CustomNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6961752D5B9907001C1493 /* CustomNavigationLink.swift */; };
+		8C6961782D5BA1D4001C1493 /* NavPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6961772D5BA1D4001C1493 /* NavPreferenceKey.swift */; };
+		8C85244C2D55EBBA0075A86A /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85244B2D55EBBA0075A86A /* DetailScreen.swift */; };
+		8C85244E2D55EBC50075A86A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85244D2D55EBC50075A86A /* DetailViewModel.swift */; };
+		8C8524502D55EEE40075A86A /* BlueIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C85244F2D55EEE40075A86A /* BlueIconButton.swift */; };
+		8C8524532D55F09B0075A86A /* TypeAlias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8524522D55F09B0075A86A /* TypeAlias.swift */; };
+		8C8727B32D51C0C600A59E2D /* SmallRectangleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8727B22D51C0C600A59E2D /* SmallRectangleItem.swift */; };
+		8C8727B52D51CAE200A59E2D /* ItemShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8727B42D51CAE200A59E2D /* ItemShape.swift */; };
+		8C97822A2D53AF7F00F10910 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9782292D53AF7F00F10910 /* MainScreen.swift */; };
+		8C97822D2D53B04A00F10910 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C97822C2D53B04A00F10910 /* ColorExtensions.swift */; };
+		8CA3DADF2D57006000392C72 /* CartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3DADE2D57006000392C72 /* CartScreen.swift */; };
+		8CA3DAE12D57006C00392C72 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3DAE02D57006C00392C72 /* CartViewModel.swift */; };
+		8CA3DAE42D5700C700392C72 /* TopBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3DAE32D5700C700392C72 /* TopBarModifier.swift */; };
+		8CA3DAE62D57014900392C72 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3DAE52D57014900392C72 /* ViewExtensions.swift */; };
+		8CA3DAE82D5707B200392C72 /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3DAE72D5707B200392C72 /* CartItem.swift */; };
+		8CA3DAEA2D57126B00392C72 /* TextRowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3DAE92D57126B00392C72 /* TextRowItem.swift */; };
 		8CB0E28C2D4F7CFF0036A8F5 /* OnlineBikeShoppingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E28B2D4F7CFF0036A8F5 /* OnlineBikeShoppingApp.swift */; };
 		8CB0E28E2D4F7CFF0036A8F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E28D2D4F7CFF0036A8F5 /* ContentView.swift */; };
 		8CB0E2902D4F7D000036A8F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0E28F2D4F7D000036A8F5 /* Assets.xcassets */; };
@@ -14,6 +41,12 @@
 		8CB0E29E2D4F7D010036A8F5 /* OnlineBikeShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E29D2D4F7D010036A8F5 /* OnlineBikeShoppingTests.swift */; };
 		8CB0E2A82D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E2A72D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift */; };
 		8CB0E2AA2D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E2A92D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift */; };
+		8CC479432D4F877700ACB72C /* MainItemShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC479422D4F877700ACB72C /* MainItemShape.swift */; };
+		8CDB13B92D54685100AB47A1 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13B82D54685100AB47A1 /* CustomTabBarView.swift */; };
+		8CDB13BB2D54688A00AB47A1 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13BA2D54688A00AB47A1 /* SampleView.swift */; };
+		8CDB13BE2D5469B800AB47A1 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13BD2D5469B800AB47A1 /* TabItem.swift */; };
+		8CDB13C12D54909200AB47A1 /* SaleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13C02D54909200AB47A1 /* SaleItem.swift */; };
+		8CDB13C42D54949500AB47A1 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13C32D54949500AB47A1 /* MainScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C13BDA22D5A3946002C7752 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		8C13BDA42D5A3A75002C7752 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		8C13BDA62D5A3F05002C7752 /* CustomTabBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView2.swift; sourceTree = "<group>"; };
+		8C13BDA92D5A40F0002C7752 /* TabarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabarItemPreferenceKey.swift; sourceTree = "<group>"; };
+		8C13BDAB2D5A4F30002C7752 /* IdentifiableAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableAnyView.swift; sourceTree = "<group>"; };
+		8C3CEB412D5B411B008489B0 /* TupleViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleViewExtensions.swift; sourceTree = "<group>"; };
+		8C3CEB432D5B44A0008489B0 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
+		8C69616F2D5B935D001C1493 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
+		8C6961712D5B955A001C1493 /* CustomNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationStack.swift; sourceTree = "<group>"; };
+		8C6961732D5B95BB001C1493 /* CustomNavBarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarContainer.swift; sourceTree = "<group>"; };
+		8C6961752D5B9907001C1493 /* CustomNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationLink.swift; sourceTree = "<group>"; };
+		8C6961772D5BA1D4001C1493 /* NavPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavPreferenceKey.swift; sourceTree = "<group>"; };
+		8C85244B2D55EBBA0075A86A /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		8C85244D2D55EBC50075A86A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		8C85244F2D55EEE40075A86A /* BlueIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueIconButton.swift; sourceTree = "<group>"; };
+		8C8524522D55F09B0075A86A /* TypeAlias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAlias.swift; sourceTree = "<group>"; };
+		8C8727B22D51C0C600A59E2D /* SmallRectangleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRectangleItem.swift; sourceTree = "<group>"; };
+		8C8727B42D51CAE200A59E2D /* ItemShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemShape.swift; sourceTree = "<group>"; };
+		8C9782292D53AF7F00F10910 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		8C97822C2D53B04A00F10910 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		8CA3DADE2D57006000392C72 /* CartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartScreen.swift; sourceTree = "<group>"; };
+		8CA3DAE02D57006C00392C72 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		8CA3DAE32D5700C700392C72 /* TopBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarModifier.swift; sourceTree = "<group>"; };
+		8CA3DAE52D57014900392C72 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		8CA3DAE72D5707B200392C72 /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		8CA3DAE92D57126B00392C72 /* TextRowItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRowItem.swift; sourceTree = "<group>"; };
 		8CB0E2882D4F7CFF0036A8F5 /* OnlineBikeShopping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnlineBikeShopping.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0E28B2D4F7CFF0036A8F5 /* OnlineBikeShoppingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBikeShoppingApp.swift; sourceTree = "<group>"; };
 		8CB0E28D2D4F7CFF0036A8F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +104,13 @@
 		8CB0E2A32D4F7D010036A8F5 /* OnlineBikeShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineBikeShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0E2A72D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBikeShoppingUITests.swift; sourceTree = "<group>"; };
 		8CB0E2A92D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBikeShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8CC479422D4F877700ACB72C /* MainItemShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemShape.swift; sourceTree = "<group>"; };
+		8CDB13B82D54685100AB47A1 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		8CDB13BA2D54688A00AB47A1 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
+		8CDB13BD2D5469B800AB47A1 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		8CDB13C02D54909200AB47A1 /* SaleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleItem.swift; sourceTree = "<group>"; };
+		8CDB13C32D54949500AB47A1 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		8CFF5C282D79ED8A00B223A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C5976152D4F8CEC00E2ED4E /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +139,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C13BDA82D5A40DD002C7752 /* PreferenceKey */ = {
+			isa = PBXGroup;
+			children = (
+				8C13BDA92D5A40F0002C7752 /* TabarItemPreferenceKey.swift */,
+				8C6961772D5BA1D4001C1493 /* NavPreferenceKey.swift */,
+			);
+			path = PreferenceKey;
+			sourceTree = "<group>";
+		};
+		8C8524512D55F0920075A86A /* Alias */ = {
+			isa = PBXGroup;
+			children = (
+				8C8524522D55F09B0075A86A /* TypeAlias.swift */,
+			);
+			path = Alias;
+			sourceTree = "<group>";
+		};
+		8C8727B12D51C08D00A59E2D /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				8C8727B22D51C0C600A59E2D /* SmallRectangleItem.swift */,
+				8C85244F2D55EEE40075A86A /* BlueIconButton.swift */,
+				8CA3DAE72D5707B200392C72 /* CartItem.swift */,
+				8CA3DAE92D57126B00392C72 /* TextRowItem.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		8C9782282D53AF7000F10910 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C9782292D53AF7F00F10910 /* MainScreen.swift */,
+				8CDB13B82D54685100AB47A1 /* CustomTabBarView.swift */,
+				8CDB13BA2D54688A00AB47A1 /* SampleView.swift */,
+				8C85244B2D55EBBA0075A86A /* DetailScreen.swift */,
+				8CA3DADE2D57006000392C72 /* CartScreen.swift */,
+				8C13BDA42D5A3A75002C7752 /* CustomTabBarItem.swift */,
+				8C13BDA62D5A3F05002C7752 /* CustomTabBarView2.swift */,
+				8C69616F2D5B935D001C1493 /* CustomNavBar.swift */,
+				8C6961712D5B955A001C1493 /* CustomNavigationStack.swift */,
+				8C6961732D5B95BB001C1493 /* CustomNavBarContainer.swift */,
+				8C6961752D5B9907001C1493 /* CustomNavigationLink.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C97822B2D53B03C00F10910 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C97822C2D53B04A00F10910 /* ColorExtensions.swift */,
+				8CA3DAE52D57014900392C72 /* ViewExtensions.swift */,
+				8C3CEB412D5B411B008489B0 /* TupleViewExtensions.swift */,
+				8C3CEB432D5B44A0008489B0 /* UINavigationControllerExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CA3DAE22D5700B300392C72 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				8CA3DAE32D5700C700392C72 /* TopBarModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		8CB0E27F2D4F7CFF0036A8F5 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +227,16 @@
 		8CB0E28A2D4F7CFF0036A8F5 /* OnlineBikeShopping */ = {
 			isa = PBXGroup;
 			children = (
+				8CFF5C282D79ED8A00B223A3 /* Info.plist */,
+				8C13BDA82D5A40DD002C7752 /* PreferenceKey */,
+				8CA3DAE22D5700B300392C72 /* ViewModifiers */,
+				8C8524512D55F0920075A86A /* Alias */,
+				8CDB13C22D54948600AB47A1 /* VIewModels */,
+				8CDB13BC2D5469AC00AB47A1 /* Models */,
+				8C97822B2D53B03C00F10910 /* Extensions */,
+				8C9782282D53AF7000F10910 /* Views */,
+				8C8727B12D51C08D00A59E2D /* ComponentViews */,
+				8CC479412D4F876F00ACB72C /* Shape */,
 				8CB0E28B2D4F7CFF0036A8F5 /* OnlineBikeShoppingApp.swift */,
 				8CB0E28D2D4F7CFF0036A8F5 /* ContentView.swift */,
 				8CB0E28F2D4F7D000036A8F5 /* Assets.xcassets */,
@@ -129,6 +271,36 @@
 			path = OnlineBikeShoppingUITests;
 			sourceTree = "<group>";
 		};
+		8CC479412D4F876F00ACB72C /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				8CC479422D4F877700ACB72C /* MainItemShape.swift */,
+				8C8727B42D51CAE200A59E2D /* ItemShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		8CDB13BC2D5469AC00AB47A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C13BDA22D5A3946002C7752 /* TabBarItem.swift */,
+				8CDB13BD2D5469B800AB47A1 /* TabItem.swift */,
+				8CDB13C02D54909200AB47A1 /* SaleItem.swift */,
+				8C13BDAB2D5A4F30002C7752 /* IdentifiableAnyView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CDB13C22D54948600AB47A1 /* VIewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB13C32D54949500AB47A1 /* MainScreenViewModel.swift */,
+				8C85244D2D55EBC50075A86A /* DetailViewModel.swift */,
+				8CA3DAE02D57006C00392C72 /* CartViewModel.swift */,
+			);
+			path = VIewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +317,9 @@
 			dependencies = (
 			);
 			name = OnlineBikeShopping;
+			packageProductDependencies = (
+				8C5976142D4F8CEC00E2ED4E /* Inject */,
+			);
 			productName = OnlineBikeShopping;
 			productReference = 8CB0E2882D4F7CFF0036A8F5 /* OnlineBikeShopping.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +392,9 @@
 				Base,
 			);
 			mainGroup = 8CB0E27F2D4F7CFF0036A8F5;
+			packageReferences = (
+				8C5976132D4F8CEC00E2ED4E /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = 8CB0E2892D4F7CFF0036A8F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +437,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C97822A2D53AF7F00F10910 /* MainScreen.swift in Sources */,
+				8C13BDAC2D5A4F30002C7752 /* IdentifiableAnyView.swift in Sources */,
+				8CA3DAE42D5700C700392C72 /* TopBarModifier.swift in Sources */,
+				8CDB13BB2D54688A00AB47A1 /* SampleView.swift in Sources */,
+				8C8524502D55EEE40075A86A /* BlueIconButton.swift in Sources */,
+				8C6961762D5B9907001C1493 /* CustomNavigationLink.swift in Sources */,
+				8C8727B32D51C0C600A59E2D /* SmallRectangleItem.swift in Sources */,
+				8C13BDA32D5A3946002C7752 /* TabBarItem.swift in Sources */,
+				8C3CEB442D5B44A0008489B0 /* UINavigationControllerExtensions.swift in Sources */,
 				8CB0E28E2D4F7CFF0036A8F5 /* ContentView.swift in Sources */,
+				8CDB13B92D54685100AB47A1 /* CustomTabBarView.swift in Sources */,
+				8C3CEB422D5B411B008489B0 /* TupleViewExtensions.swift in Sources */,
+				8CA3DAE12D57006C00392C72 /* CartViewModel.swift in Sources */,
+				8C8524532D55F09B0075A86A /* TypeAlias.swift in Sources */,
+				8CDB13C42D54949500AB47A1 /* MainScreenViewModel.swift in Sources */,
+				8C6961742D5B95BB001C1493 /* CustomNavBarContainer.swift in Sources */,
+				8C6961702D5B935D001C1493 /* CustomNavBar.swift in Sources */,
+				8C8727B52D51CAE200A59E2D /* ItemShape.swift in Sources */,
+				8C13BDA72D5A3F05002C7752 /* CustomTabBarView2.swift in Sources */,
 				8CB0E28C2D4F7CFF0036A8F5 /* OnlineBikeShoppingApp.swift in Sources */,
+				8C85244C2D55EBBA0075A86A /* DetailScreen.swift in Sources */,
+				8C6961782D5BA1D4001C1493 /* NavPreferenceKey.swift in Sources */,
+				8C13BDA52D5A3A75002C7752 /* CustomTabBarItem.swift in Sources */,
+				8CA3DAE82D5707B200392C72 /* CartItem.swift in Sources */,
+				8C85244E2D55EBC50075A86A /* DetailViewModel.swift in Sources */,
+				8CDB13C12D54909200AB47A1 /* SaleItem.swift in Sources */,
+				8C6961722D5B955A001C1493 /* CustomNavigationStack.swift in Sources */,
+				8CC479432D4F877700ACB72C /* MainItemShape.swift in Sources */,
+				8CA3DADF2D57006000392C72 /* CartScreen.swift in Sources */,
+				8CDB13BE2D5469B800AB47A1 /* TabItem.swift in Sources */,
+				8CA3DAE62D57014900392C72 /* ViewExtensions.swift in Sources */,
+				8C13BDAA2D5A40F0002C7752 /* TabarItemPreferenceKey.swift in Sources */,
+				8CA3DAEA2D57126B00392C72 /* TextRowItem.swift in Sources */,
+				8C97822D2D53B04A00F10910 /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +563,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -407,6 +621,10 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-interposable",
+				);
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -422,6 +640,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OnlineBikeShopping/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnlineBikeShopping/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -458,6 +677,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"OnlineBikeShopping/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OnlineBikeShopping/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -609,6 +829,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C5976132D4F8CEC00E2ED4E /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C5976142D4F8CEC00E2ED4E /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C5976132D4F8CEC00E2ED4E /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8CB0E2802D4F7CFF0036A8F5 /* Project object */;
 }

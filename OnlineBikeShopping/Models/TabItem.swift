@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct TabItem: Identifiable {
+    let id: String = UUID().uuidString
+    let view: AnyView
+    let icon: AnyView
+}

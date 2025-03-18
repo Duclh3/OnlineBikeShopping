@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct SampleView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    var color: Color
+    var content: String
 
-#Preview {
-    SampleView()
+    var body: some View {
+        ZStack {
+            color.ignoresSafeArea(.all)
+            Text("Screen \(content)")
+        }
+    }
 }

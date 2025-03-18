@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct TextRowItem: View {
+    var key: String
+    var value: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(key).font(.system(size: 15)).fontWeight(.medium).foregroundColor(.white).opacity(0.87)
+            Spacer()
+            Text(value).font(.system(size: 15)).fontWeight(.regular).foregroundColor(.white).opacity(0.6)
+        }
     }
 }
 
-#Preview {
-    TextRowItem()
-}

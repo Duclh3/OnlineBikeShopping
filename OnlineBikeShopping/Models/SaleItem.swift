@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct SaleItem: Identifiable {
+    var id: String = UUID().uuidString
+    var name: String = ""
+    var modelName: String = ""
+    var price: String = ""
+    var isFavourite: Bool = false
+    var imageUrl: String = ""
+    var description: String = ""
+}
