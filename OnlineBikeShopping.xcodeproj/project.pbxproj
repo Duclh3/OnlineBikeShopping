@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C114C1C2D8EF44700E11E89 /* TestScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C114C1B2D8EF44700E11E89 /* TestScreenViewModel.swift */; };
+		8C114C1E2D8EF47300E11E89 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C114C1D2D8EF47300E11E89 /* UserModel.swift */; };
+		8C114C202D8EFC1200E11E89 /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C114C1F2D8EFC1200E11E89 /* StarRating.swift */; };
 		8C13BDA32D5A3946002C7752 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA22D5A3946002C7752 /* TabBarItem.swift */; };
 		8C13BDA52D5A3A75002C7752 /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA42D5A3A75002C7752 /* CustomTabBarItem.swift */; };
 		8C13BDA72D5A3F05002C7752 /* CustomTabBarView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA62D5A3F05002C7752 /* CustomTabBarView2.swift */; };
 		8C13BDAA2D5A40F0002C7752 /* TabarItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDA92D5A40F0002C7752 /* TabarItemPreferenceKey.swift */; };
 		8C13BDAC2D5A4F30002C7752 /* IdentifiableAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C13BDAB2D5A4F30002C7752 /* IdentifiableAnyView.swift */; };
+		8C3A61912D8EE7E20017921E /* TestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3A61902D8EE7E20017921E /* TestScreen.swift */; };
 		8C3CEB422D5B411B008489B0 /* TupleViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CEB412D5B411B008489B0 /* TupleViewExtensions.swift */; };
 		8C3CEB442D5B44A0008489B0 /* UINavigationControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3CEB432D5B44A0008489B0 /* UINavigationControllerExtensions.swift */; };
 		8C5976152D4F8CEC00E2ED4E /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 8C5976142D4F8CEC00E2ED4E /* Inject */; };
@@ -39,8 +43,6 @@
 		8CB0E2902D4F7D000036A8F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0E28F2D4F7D000036A8F5 /* Assets.xcassets */; };
 		8CB0E2942D4F7D000036A8F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CB0E2932D4F7D000036A8F5 /* Preview Assets.xcassets */; };
 		8CB0E29E2D4F7D010036A8F5 /* OnlineBikeShoppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E29D2D4F7D010036A8F5 /* OnlineBikeShoppingTests.swift */; };
-		8CB0E2A82D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E2A72D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift */; };
-		8CB0E2AA2D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB0E2A92D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift */; };
 		8CC479432D4F877700ACB72C /* MainItemShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC479422D4F877700ACB72C /* MainItemShape.swift */; };
 		8CDB13B92D54685100AB47A1 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13B82D54685100AB47A1 /* CustomTabBarView.swift */; };
 		8CDB13BB2D54688A00AB47A1 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB13BA2D54688A00AB47A1 /* SampleView.swift */; };
@@ -57,21 +59,18 @@
 			remoteGlobalIDString = 8CB0E2872D4F7CFF0036A8F5;
 			remoteInfo = OnlineBikeShopping;
 		};
-		8CB0E2A42D4F7D010036A8F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8CB0E2802D4F7CFF0036A8F5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8CB0E2872D4F7CFF0036A8F5;
-			remoteInfo = OnlineBikeShopping;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C114C1B2D8EF44700E11E89 /* TestScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreenViewModel.swift; sourceTree = "<group>"; };
+		8C114C1D2D8EF47300E11E89 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8C114C1F2D8EFC1200E11E89 /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
 		8C13BDA22D5A3946002C7752 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
 		8C13BDA42D5A3A75002C7752 /* CustomTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
 		8C13BDA62D5A3F05002C7752 /* CustomTabBarView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView2.swift; sourceTree = "<group>"; };
 		8C13BDA92D5A40F0002C7752 /* TabarItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabarItemPreferenceKey.swift; sourceTree = "<group>"; };
 		8C13BDAB2D5A4F30002C7752 /* IdentifiableAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableAnyView.swift; sourceTree = "<group>"; };
+		8C3A61902D8EE7E20017921E /* TestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScreen.swift; sourceTree = "<group>"; };
 		8C3CEB412D5B411B008489B0 /* TupleViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TupleViewExtensions.swift; sourceTree = "<group>"; };
 		8C3CEB432D5B44A0008489B0 /* UINavigationControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtensions.swift; sourceTree = "<group>"; };
 		8C69616F2D5B935D001C1493 /* CustomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBar.swift; sourceTree = "<group>"; };
@@ -101,9 +100,6 @@
 		8CB0E2932D4F7D000036A8F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8CB0E2992D4F7D010036A8F5 /* OnlineBikeShoppingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineBikeShoppingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB0E29D2D4F7D010036A8F5 /* OnlineBikeShoppingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBikeShoppingTests.swift; sourceTree = "<group>"; };
-		8CB0E2A32D4F7D010036A8F5 /* OnlineBikeShoppingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineBikeShoppingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CB0E2A72D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBikeShoppingUITests.swift; sourceTree = "<group>"; };
-		8CB0E2A92D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineBikeShoppingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8CC479422D4F877700ACB72C /* MainItemShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItemShape.swift; sourceTree = "<group>"; };
 		8CDB13B82D54685100AB47A1 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		8CDB13BA2D54688A00AB47A1 /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
@@ -123,13 +119,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CB0E2962D4F7D010036A8F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CB0E2A02D4F7D010036A8F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,6 +170,8 @@
 				8C6961712D5B955A001C1493 /* CustomNavigationStack.swift */,
 				8C6961732D5B95BB001C1493 /* CustomNavBarContainer.swift */,
 				8C6961752D5B9907001C1493 /* CustomNavigationLink.swift */,
+				8C3A61902D8EE7E20017921E /* TestScreen.swift */,
+				8C114C1F2D8EFC1200E11E89 /* StarRating.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,7 +200,6 @@
 			children = (
 				8CB0E28A2D4F7CFF0036A8F5 /* OnlineBikeShopping */,
 				8CB0E29C2D4F7D010036A8F5 /* OnlineBikeShoppingTests */,
-				8CB0E2A62D4F7D010036A8F5 /* OnlineBikeShoppingUITests */,
 				8CB0E2892D4F7CFF0036A8F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -219,7 +209,6 @@
 			children = (
 				8CB0E2882D4F7CFF0036A8F5 /* OnlineBikeShopping.app */,
 				8CB0E2992D4F7D010036A8F5 /* OnlineBikeShoppingTests.xctest */,
-				8CB0E2A32D4F7D010036A8F5 /* OnlineBikeShoppingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,15 +251,6 @@
 			path = OnlineBikeShoppingTests;
 			sourceTree = "<group>";
 		};
-		8CB0E2A62D4F7D010036A8F5 /* OnlineBikeShoppingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8CB0E2A72D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift */,
-				8CB0E2A92D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift */,
-			);
-			path = OnlineBikeShoppingUITests;
-			sourceTree = "<group>";
-		};
 		8CC479412D4F876F00ACB72C /* Shape */ = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +267,7 @@
 				8CDB13BD2D5469B800AB47A1 /* TabItem.swift */,
 				8CDB13C02D54909200AB47A1 /* SaleItem.swift */,
 				8C13BDAB2D5A4F30002C7752 /* IdentifiableAnyView.swift */,
+				8C114C1D2D8EF47300E11E89 /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -297,6 +278,7 @@
 				8CDB13C32D54949500AB47A1 /* MainScreenViewModel.swift */,
 				8C85244D2D55EBC50075A86A /* DetailViewModel.swift */,
 				8CA3DAE02D57006C00392C72 /* CartViewModel.swift */,
+				8C114C1B2D8EF44700E11E89 /* TestScreenViewModel.swift */,
 			);
 			path = VIewModels;
 			sourceTree = "<group>";
@@ -342,24 +324,6 @@
 			productReference = 8CB0E2992D4F7D010036A8F5 /* OnlineBikeShoppingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8CB0E2A22D4F7D010036A8F5 /* OnlineBikeShoppingUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8CB0E2B32D4F7D010036A8F5 /* Build configuration list for PBXNativeTarget "OnlineBikeShoppingUITests" */;
-			buildPhases = (
-				8CB0E29F2D4F7D010036A8F5 /* Sources */,
-				8CB0E2A02D4F7D010036A8F5 /* Frameworks */,
-				8CB0E2A12D4F7D010036A8F5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8CB0E2A52D4F7D010036A8F5 /* PBXTargetDependency */,
-			);
-			name = OnlineBikeShoppingUITests;
-			productName = OnlineBikeShoppingUITests;
-			productReference = 8CB0E2A32D4F7D010036A8F5 /* OnlineBikeShoppingUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -374,10 +338,6 @@
 						CreatedOnToolsVersion = 15.4;
 					};
 					8CB0E2982D4F7D010036A8F5 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 8CB0E2872D4F7CFF0036A8F5;
-					};
-					8CB0E2A22D4F7D010036A8F5 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 8CB0E2872D4F7CFF0036A8F5;
 					};
@@ -401,7 +361,6 @@
 			targets = (
 				8CB0E2872D4F7CFF0036A8F5 /* OnlineBikeShopping */,
 				8CB0E2982D4F7D010036A8F5 /* OnlineBikeShoppingTests */,
-				8CB0E2A22D4F7D010036A8F5 /* OnlineBikeShoppingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -417,13 +376,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8CB0E2972D4F7D010036A8F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8CB0E2A12D4F7D010036A8F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,10 +407,12 @@
 				8C6961742D5B95BB001C1493 /* CustomNavBarContainer.swift in Sources */,
 				8C6961702D5B935D001C1493 /* CustomNavBar.swift in Sources */,
 				8C8727B52D51CAE200A59E2D /* ItemShape.swift in Sources */,
+				8C3A61912D8EE7E20017921E /* TestScreen.swift in Sources */,
 				8C13BDA72D5A3F05002C7752 /* CustomTabBarView2.swift in Sources */,
 				8CB0E28C2D4F7CFF0036A8F5 /* OnlineBikeShoppingApp.swift in Sources */,
 				8C85244C2D55EBBA0075A86A /* DetailScreen.swift in Sources */,
 				8C6961782D5BA1D4001C1493 /* NavPreferenceKey.swift in Sources */,
+				8C114C1E2D8EF47300E11E89 /* UserModel.swift in Sources */,
 				8C13BDA52D5A3A75002C7752 /* CustomTabBarItem.swift in Sources */,
 				8CA3DAE82D5707B200392C72 /* CartItem.swift in Sources */,
 				8C85244E2D55EBC50075A86A /* DetailViewModel.swift in Sources */,
@@ -468,6 +422,8 @@
 				8CA3DADF2D57006000392C72 /* CartScreen.swift in Sources */,
 				8CDB13BE2D5469B800AB47A1 /* TabItem.swift in Sources */,
 				8CA3DAE62D57014900392C72 /* ViewExtensions.swift in Sources */,
+				8C114C1C2D8EF44700E11E89 /* TestScreenViewModel.swift in Sources */,
+				8C114C202D8EFC1200E11E89 /* StarRating.swift in Sources */,
 				8C13BDAA2D5A40F0002C7752 /* TabarItemPreferenceKey.swift in Sources */,
 				8CA3DAEA2D57126B00392C72 /* TextRowItem.swift in Sources */,
 				8C97822D2D53B04A00F10910 /* ColorExtensions.swift in Sources */,
@@ -482,15 +438,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8CB0E29F2D4F7D010036A8F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CB0E2AA2D4F7D010036A8F5 /* OnlineBikeShoppingUITestsLaunchTests.swift in Sources */,
-				8CB0E2A82D4F7D010036A8F5 /* OnlineBikeShoppingUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -498,11 +445,6 @@
 			isa = PBXTargetDependency;
 			target = 8CB0E2872D4F7CFF0036A8F5 /* OnlineBikeShopping */;
 			targetProxy = 8CB0E29A2D4F7D010036A8F5 /* PBXContainerItemProxy */;
-		};
-		8CB0E2A52D4F7D010036A8F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8CB0E2872D4F7CFF0036A8F5 /* OnlineBikeShopping */;
-			targetProxy = 8CB0E2A42D4F7D010036A8F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -706,7 +648,6 @@
 		8CB0E2B12D4F7D010036A8F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -717,10 +658,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bikeshopping.duclh3.OnlineBikeShoppingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineBikeShopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnlineBikeShopping";
 			};
 			name = Debug;
@@ -728,7 +670,6 @@
 		8CB0E2B22D4F7D010036A8F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -739,53 +680,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bikeshopping.duclh3.OnlineBikeShoppingTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnlineBikeShopping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OnlineBikeShopping";
-			};
-			name = Release;
-		};
-		8CB0E2B42D4F7D010036A8F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bikeshopping.duclh3.OnlineBikeShoppingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OnlineBikeShopping;
-			};
-			name = Debug;
-		};
-		8CB0E2B52D4F7D010036A8F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.bikeshopping.duclh3.OnlineBikeShoppingUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = OnlineBikeShopping;
 			};
 			name = Release;
 		};
@@ -815,15 +715,6 @@
 			buildConfigurations = (
 				8CB0E2B12D4F7D010036A8F5 /* Debug */,
 				8CB0E2B22D4F7D010036A8F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8CB0E2B32D4F7D010036A8F5 /* Build configuration list for PBXNativeTarget "OnlineBikeShoppingUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CB0E2B42D4F7D010036A8F5 /* Debug */,
-				8CB0E2B52D4F7D010036A8F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

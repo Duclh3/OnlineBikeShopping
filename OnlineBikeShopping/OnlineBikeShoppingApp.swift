@@ -29,14 +29,15 @@ struct OnlineBikeShoppingApp: App {
             
             
             
-                        CustomTabBarView2(selection: $selection) {
-                            Color.red.ignoresSafeArea(.all)
-                                .tabBarItem(tab: .init(iconName: "house", title: "Home", color: Color.red))
-                            Color.blue.ignoresSafeArea(.all)
-                                .tabBarItem(tab: .init(iconName: "heart", title: "Favorites", color: Color.blue))
-                            Color.white.ignoresSafeArea(.all)
-                                .tabBarItem(tab: .init(iconName: "person", title: "Profile", color: Color.white))
-                        }
+//                        CustomTabBarView2(selection: $selection) {
+//                            Color.red.ignoresSafeArea(.all)
+//                                .tabBarItem(tab: .init(iconName: "house", title: "Home", color: Color.red))
+//                            Color.blue.ignoresSafeArea(.all)
+//                                .tabBarItem(tab: .init(iconName: "heart", title: "Favorites", color: Color.blue))
+//                            Color.white.ignoresSafeArea(.all)
+//                                .tabBarItem(tab: .init(iconName: "person", title: "Profile", color: Color.white))
+//                        }
+            TestScreen()
             
             
 
