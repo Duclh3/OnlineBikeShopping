@@ -44,7 +44,6 @@ jobs:
 
       - name: Build app
         run: |
-          cd ios
           xcodebuild \
             -workspace OnlineBikeShopping.xcworkspace \
             -scheme OnlineBikeShopping \
@@ -53,7 +52,6 @@ jobs:
 
       - name: Run tests
         run: |
-          cd ios
           xcodebuild \
             -workspace OnlineBikeShopping.xcworkspace \
             -scheme OnlineBikeShopping \
